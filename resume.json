@@ -1,0 +1,175 @@
+{
+	"basics": {
+		"name": "Jesse Gwinn",
+		"label": "Programmer/DevOps",
+		"picture": "https://s3-us-west-2.amazonaws.com/pro-pictures-jag/Gwinn-2.jpg",
+		"email": "gwinn092@gmail.com",
+		"phone": "720.203.8545",
+		"location": {
+			"address": "5365 Perry St ",
+			"postalCode": "CO 80212",
+			"city": "Denver",
+			"countryCode": "United States",
+			"region": "Colorado"
+		},
+		"profiles": [{
+				"network": "LinkedIn",
+				"username": "Jesse Gwinn",
+				"url": "https://www.linkedin.com/in/jesse-gwinn/"
+			},
+			{
+				"network": "GitHub",
+				"username": "Gwinn092",
+				"url": "https://github.com/Gwinn092"
+			}
+		]
+	},
+	"work": [{
+		"company": "FDRLogistics",
+		"position": "Linear Regression Analyst",
+		"startDate": "2017-10-01",
+		"endDate": "Present",
+		"summary": "Your Global Enterprise Shipping Solution for Food & Beverage Manufacturers & the Restaurant Industry.",
+		"highlights": [
+			"Developed linear regression tier cards for shipping logistics."
+		]
+
+	},
+		{
+			"company": "MusclePharm",
+			"position": "Research assistant",
+			"startDate": "2016-01-07",
+			"endDate": "2017-01-28",
+			"summary": "MusclePharm Corporation is an American nutritional supplement company founded in 2010 and headquartered in Denver, Colorado.",
+			"highlights": [
+				"Complex data analysis with excel and data websearching, while assisting in multiple supplement studies",
+				"Published :",
+				"Falcone, P.H., Tribby, A.C., Gwinn, J.A., Slayton, C., Henigman, M.M., Santiesteban, I., Dawes, S., Lasrado, J., Fonseca, B., Lewis, B., Herrlinger, K. Chronic Supplementation with a Natural Nootropic Spearmint Extract Improves Active Reaction Performance in Young, Healthy Individuals. International Society of Sports Nutrition. Phoenix, AZ (2017). ",
+				"Herrlinger, K., Lewis, B., Tribby, A.C., Gwinn, J.A., Slayton, C., Henigman, M.M., Santiesteban, I., Dawes, S., Lasrado, J., Fonseca, B., Falcone, P.H. A Natural Nootropic Spearmint Extract is Safe and Well-Tolerated in Young, Healthy Individuals. International Society of Sports Nutrition. Phoenix, AZ (2017)."
+			]
+		},
+		{
+			"company": "Coldwell Banker Residential Brokerage",
+			"position": "Real Estate Broker",
+			"startDate": "2013-08-01",
+			"endDate": "2016-03-29",
+			"summary": "Worked with buyers and sellers to help navigate the complex nature of the property market to insure their best interest.",
+			"highlights": [
+				"Developed a high level of communication and responsiveness to detail in negotiation."
+			]
+		}
+	],
+	"volunteer": [{
+		"organization": "Jeffco Action Center",
+		"position": "Help serve the homeless",
+		"website": "http://theactioncenterco.org/",
+		"startDate": "2016-12-21",
+		"endDate": "2016-12-21",
+		"summary": "Volunteered at the Jeffco Action Center a number of times. While there, I helped sort through donated clothes and put them on racks and shelves. Helped with unloading vehicles full of donations around the holidays.",
+		"highlights": [
+
+		]
+	}],
+	"education": [{
+			"institution": "Regis University",
+			"area": "Denver, Colorado",
+			"studyType": "BA, Marketing",
+			"startDate": "2006-01-17",
+      "gpa": "3.7",
+			"courses": [
+				"Calc 1",
+				"Stats 101",
+				"Abobe PhotoShop 201"
+			]
+		},
+    {
+			"institution": "Coursera",
+			"area": "Coursera.org",
+			"studyType": "Python for Everyone",
+			"startDate": "2017-04-08",
+			"gpa": "4.0",
+			"courses": [
+				"Certifcates in: ",
+        "Python for Everyone(Getting Started With Python)",
+        "Python Data Structures",
+        "Using Python To Access Web Data"
+			]
+		},
+		{
+			"institution": "FreeCodeCamp",
+			"area": "Freecodecamp.com",
+			"studyType": "Programming",
+			"endDate": "2016-10-01",
+			"courses": [
+				"HTML5 and CSS",
+				"Responsive Design with Bootstrap",
+				"jQuery",
+				"Basic JavaScript",
+				"Object Oriented and Functional Programming",
+				"JSON API's and Ajax"
+			]
+		},
+		{
+			"institution": "Udemy",
+			"area": "Udemy.com",
+			"studyType": "Amazon Web Services and JavaScriptES6",
+			"startDate": "2017-06-17",
+			"courses": [
+        "AWS Certified Solutions Architect Associate2017",
+        "The Complete JavaScript Course: Jonas Schmedtmann"
+			]
+		},
+		{
+			"institution": "Codecademy",
+			"area": "Codecademy.com",
+			"studyType": "Programming",
+			"startDate": "2017-01-01",
+			"courses": [
+				"HTML & CSS",
+				"jQuery",
+				"Learn the Command Line",
+				"Learn Git",
+				"Learn JavaScript"
+			]
+		}
+	],
+	"skills": [{
+			"name": "Programming Languages",
+			"level": "Beginner",
+			"keywords": [
+        "Python",
+        "Amazon Web services(AWS)",
+        "HTML",
+				"CSS",
+				"JavaScript(ES6)",
+				"jQuery",
+				"GitHub",
+				"Command line",
+				"JSON",
+				"Docker"
+
+			]
+		},
+		{
+			"name": "Work",
+			"level": "Master",
+			"keywords": [
+				"People Skills",
+				"Communication",
+				"Customer Service",
+				"Project Managment",
+				"Marketing",
+				"Problem Solving"
+			]
+		}
+	],
+	"languages": [{
+		"language": "English",
+		"fluency": "Native speaker"
+	}],
+
+	"references": [{
+		"name": "",
+		"reference": ""
+	}]
+}
