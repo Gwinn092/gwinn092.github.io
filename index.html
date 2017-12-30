@@ -1,0 +1,550 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Jesse Gwinn</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Jesse Gwinn
+					</h1>
+					<h2>
+						Programmer/DevOps
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">gwinn092@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">720.203.8545</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/jesse-gwinn/">Jesse Gwinn</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/Gwinn092">Gwinn092</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>FDRLogistics</span>
+					<span class="date">
+						2017-10-01 — 
+					</span>
+				</h4>
+				<div class="position">
+					Linear Regression Analyst
+				</div>
+				<div class="summary">
+					<p>Your Global Enterprise Shipping Solution for Food &amp; Beverage Manufacturers &amp; the Restaurant Industry.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed linear regression tier cards for shipping logistics.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>MusclePharm</span>
+					<span class="date">
+						2016-01-07 — 2017-01-28
+					</span>
+				</h4>
+				<div class="position">
+					Research assistant
+				</div>
+				<div class="summary">
+					<p>MusclePharm Corporation is an American nutritional supplement company founded in 2010 and headquartered in Denver, Colorado.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Complex data analysis with excel and data websearching, while assisting in multiple supplement studies</li>
+					<li class="bullet">Published :</li>
+					<li class="bullet">Falcone, P.H., Tribby, A.C., Gwinn, J.A., Slayton, C., Henigman, M.M., Santiesteban, I., Dawes, S., Lasrado, J., Fonseca, B., Lewis, B., Herrlinger, K. Chronic Supplementation with a Natural Nootropic Spearmint Extract Improves Active Reaction Performance in Young, Healthy Individuals. International Society of Sports Nutrition. Phoenix, AZ (2017). </li>
+					<li class="bullet">Herrlinger, K., Lewis, B., Tribby, A.C., Gwinn, J.A., Slayton, C., Henigman, M.M., Santiesteban, I., Dawes, S., Lasrado, J., Fonseca, B., Falcone, P.H. A Natural Nootropic Spearmint Extract is Safe and Well-Tolerated in Young, Healthy Individuals. International Society of Sports Nutrition. Phoenix, AZ (2017).</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Coldwell Banker Residential Brokerage</span>
+					<span class="date">
+						2013-08-01 — 2016-03-29
+					</span>
+				</h4>
+				<div class="position">
+					Real Estate Broker
+				</div>
+				<div class="summary">
+					<p>Worked with buyers and sellers to help navigate the complex nature of the property market to insure their best interest.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed a high level of communication and responsiveness to detail in negotiation.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Jeffco Action Center</span>
+					<span class="date">
+						2016-12-21 — 2016-12-21
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://theactioncenterco.org/">http://theactioncenterco.org/</a>
+				</div>
+				<div class="position">
+					Help serve the homeless
+				</div>
+				<div class="summary">
+					<p>Volunteered at the Jeffco Action Center a number of times. While there, I helped sort through donated clothes and put them on racks and shelves. Helped with unloading vehicles full of donations around the holidays.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Regis University</span>
+					<span class="date">
+						2006-01-17 — 
+					</span>
+				</h4>
+				<div class="area">
+					Denver, Colorado
+				</div>
+				<div class="studyType">
+					BA, Marketing
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Calc 1</li>
+					<li>Stats 101</li>
+					<li>Abobe PhotoShop 201</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Coursera</span>
+					<span class="date">
+						2017-04-08 — 
+					</span>
+				</h4>
+				<div class="area">
+					Coursera.org
+				</div>
+				<div class="studyType">
+					Python for Everyone
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Certifcates in: </li>
+					<li>Python for Everyone(Getting Started With Python)</li>
+					<li>Python Data Structures</li>
+					<li>Using Python To Access Web Data</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>FreeCodeCamp</span>
+					<span class="date">
+						 — 2016-10-01
+					</span>
+				</h4>
+				<div class="area">
+					Freecodecamp.com
+				</div>
+				<div class="studyType">
+					Programming
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>HTML5 and CSS</li>
+					<li>Responsive Design with Bootstrap</li>
+					<li>jQuery</li>
+					<li>Basic JavaScript</li>
+					<li>Object Oriented and Functional Programming</li>
+					<li>JSON API&#x27;s and Ajax</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Udemy</span>
+					<span class="date">
+						2017-06-17 — 
+					</span>
+				</h4>
+				<div class="area">
+					Udemy.com
+				</div>
+				<div class="studyType">
+					Amazon Web Services and JavaScriptES6
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>AWS Certified Solutions Architect Associate2017</li>
+					<li>The Complete JavaScript Course: Jonas Schmedtmann</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Codecademy</span>
+					<span class="date">
+						2017-01-01 — 
+					</span>
+				</h4>
+				<div class="area">
+					Codecademy.com
+				</div>
+				<div class="studyType">
+					Programming
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>HTML &amp; CSS</li>
+					<li>jQuery</li>
+					<li>Learn the Command Line</li>
+					<li>Learn Git</li>
+					<li>Learn JavaScript</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Programming Languages</h4>
+				</div>
+				<ul class="keywords">
+					<li>Python</li>
+					<li>Amazon Web services(AWS)</li>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript(ES6)</li>
+					<li>jQuery</li>
+					<li>GitHub</li>
+					<li>Command line</li>
+					<li>JSON</li>
+					<li>Docker</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Work</h4>
+				</div>
+				<ul class="keywords">
+					<li>People Skills</li>
+					<li>Communication</li>
+					<li>Customer Service</li>
+					<li>Project Managment</li>
+					<li>Marketing</li>
+					<li>Problem Solving</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+	
+	</body>
+</html>
